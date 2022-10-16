@@ -39,3 +39,6 @@ E faça o Login
     Run Keyword And Ignore Error   Click Element                  ${Login.Button_Cookie}
     Wait Until Element Is Visible  ${Login.Button_Logar}      10
     Click Element                  ${Login.Button_Logar} 
+
+E fecho o navegador
+    Close Browser
